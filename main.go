@@ -12,7 +12,7 @@ func main() {
   url := "https://dev60816.service-now.com/api/now/table/incident "
   method := "POST"
 
-  payload := strings.NewReader(`{"short_description":"something is going on something else as well"}`)
+  payload := strings.NewReader(`{"short_description":"something is going on something else as well or may be aomse"}`)
 
   client := &http.Client {
   }
